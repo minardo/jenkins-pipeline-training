@@ -19,7 +19,6 @@ pipeline {
                 sleep(5)
                 echo "Hello Test 2"
                 echo "Hello Test 3"
-                sh("error")
             }
         }
         stage("Deploy") {
